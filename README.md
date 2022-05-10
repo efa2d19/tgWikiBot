@@ -13,7 +13,7 @@ Telegram Wikipedia bot with buttons
 ### Clone repo  
 
 ```
-https://github.com/Drugsosos/tgWikiBot.git
+git clone https://github.com/Drugsosos/tgWikiBot.git
 ```
 
 ### Install required dependencies
@@ -25,7 +25,15 @@ pip3 install -r requirements.txt
 or
 
 ```
-python3 -m pip3 install -r requirements.txt
+python3 -m pip install -r requirements.txt
+```
+
+### Enter token
+
+/.env
+
+```
+TOKEN=<your token>
 ```
 
 ### Run main.py
