@@ -77,7 +77,7 @@ class ButtText:
     keyboard_main = '✅ На главную'
     keyboard_pics = '🌄 Картинки'
     keyboard_links = '🔗 Ссылки'
-    keyboard_back = '↪️Назад'
+    keyboard_back = '↪  ️Назад'
     keyboard_random_wiki = '🎲 Рандомная статья'
     next_page_button = '👉🏻 След. страница'
     back_page_button = '👈🏻 Пред. страница'
@@ -326,7 +326,7 @@ def links_screen(m):
         userStep[cid] = 'search_screen'
         set_key('.env', 'userStep', str(userStep))
         return
-    if text in [ButtText.keyboard_back, ButtText.back_page_button, ButtText.next_page_button]:
+    if text in [ButtText.keyboard_search, ButtText.back_page_button, ButtText.next_page_button]:
         match text:
             case ButtText.keyboard_back:
                 bot.send_message(
