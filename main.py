@@ -317,6 +317,7 @@ def links_screen(m):
             )
             userStep[cid] = 'link_search_screen_results'
             set_key('.env', 'userStep', str(userStep))
+            return
     except TypeError:
         bot.send_message(
             cid,
