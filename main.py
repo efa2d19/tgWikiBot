@@ -2,7 +2,7 @@ import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 import wikipediaapi
-import wikipedia  # For images and links
+import wikipedia  # For images
 
 from dotenv import dotenv_values, set_key, get_key
 from attr import attrs, attrib
@@ -328,7 +328,7 @@ def links_screen(m):
         return
     if text in [ButtText.keyboard_search, ButtText.back_page_button, ButtText.next_page_button]:
         match text:
-            case ButtText.keyboard_back:
+            case ButtText.keyboard_search:
                 bot.send_message(
                     cid,
                     'Используй клавиатуру для выбора действий!',
