@@ -78,6 +78,8 @@ git clone https://github.com/Drugsosos/tgWikiBot.git
 
 ### Install requirenment
 
+If you use Ish shell get a cofe, its kinda time-consuming
+
 ```
 cd tgWikiBot
 
@@ -86,12 +88,16 @@ pip3 install -r requirements.txt
 
 ### Enter token
 
+(change <your token> in 1-st line)
+
 ```
-nano .env   (change <your token> in 1-st line)
+nano .env
 ```
 
 ### Launch main.py
 
+(if you use Ish shell dont close app, app has to be on your screen to work)
+
 ```
-python3 main.py   (if you use Ish shell dont close app, app has to be on your screen to work)
+python3 main.py
 ```
