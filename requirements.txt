@@ -1,5 +1,5 @@
 pyTelegramBotAPI
 Wikipedia-API
 wikipedia
-attr
+attrs
 python-dotenv
