@@ -47,15 +47,13 @@ python3 main.py
 ### Install Python3.10
 
 ```
-apk add --no-cache -X http://dl-cdn.alpinelinux.
-org/alpine/edge/main python3
+apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/main python3
 ```
 
 ### Install pip
 
 ```
-apk add --no-cache -X http://dl-cdn.alpinelinux.
-org/alpine/edge/community py3-pip
+apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/community py3-pip
 ```
 
 ### Install build-essentials, git & nano
