@@ -79,9 +79,7 @@ git clone https://github.com/Drugsosos/tgWikiBot.git
 If you use Ish shell get a cofe, its kinda time-consuming
 
 ```
-cd tgWikiBot
-
-pip3 install -r requirements.txt
+cd tgWikiBot && pip3 install -r requirements.txt
 ```
 
 ### Enter token
